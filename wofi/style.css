@@ -1,0 +1,65 @@
+* {
+	font-family: "Fira Code Nerd Font", "Font Awesome";
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+@define-color snow_storm1 #D8DEE9;
+@define-color snow_storm2 #E5E9F0;
+@define-color snow_storm3 #ECEFF4;
+
+@define-color polar_night1 rgba(46, 52, 64, 0.2);
+@define-color polar_night2 rgba(59, 66, 82, 0.5);
+@define-color polar_night3 rgba( 67, 76, 94, 0.9);
+@define-color polar_night4 rgba( 76, 86, 106 , 0.9);
+
+@define-color frost1 ;
+@define-color frost2 #88C0D0;
+@define-color frost3 rgba(129, 161, 193, 0.8);
+@define-color frost4 rgba(94, 129, 172, 0.2);
+
+
+window {
+	background-color: @frost4;
+    border-radius: 10px
+}
+
+#input {
+	margin: 5px;
+	border-radius: 0px;
+	border: none;
+	background-color: @polar_night4;
+	color: @frost1;
+}
+
+#inner-box {
+	background-color: @polar_night4;
+}
+
+#outer-box {
+	margin: 2px;
+	padding: 10px;
+}
+
+#scroll {
+	margin: 5px;
+}
+
+#text {
+	padding: 4px;
+	color: @frost2;
+}
+
+#entry:nth-child(even){
+	background-color: @polar_night3;
+}
+
+#entry:selected {
+	background-color: @frost4;
+}
+
+#text:selected {
+	background: transparent;
+		color: @frost1;
+}
