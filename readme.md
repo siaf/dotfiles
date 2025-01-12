@@ -16,26 +16,24 @@ cd yay
 makepkg -si
 
 # Install kitty, starship, code nerd fonts
-sudo pacman -S kitty
+yay -S kitty
 yay -S starship
-yay -S ttf-cascadia-code-nerd
-yay -S ttf-fira-code-nerd
 yay -S ttf-firacode-nerd
 
 # Install hyprland, hyprlock, hypridle, hyprpaper, waybar, wofi, font awesome
-sudo pacman -S hyprland
+yay -S hyprland
 yay -S hyprlock
 yay -S hypridle
 yay -S hyprpaper
 
-sudo pacman -S waybar
-sudo pacman -S wofi
+yay -S waybar
+yay -S wofi
 
-sudo pacman -S ttf-font-awesome
+yay -S ttf-font-awesome
 
 # Install yazi, fzf
 yay -S yazi
-sudo pacman -S fzf
+yay -S fzf
 
 # Install neovim, sublime text
 yay -S neovim
