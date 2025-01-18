@@ -58,6 +58,12 @@ yay -S sublime-text
 # Install btop
 yay -S btop
 
+# Install dust - for viewing storage usage
+yay -S dust
+
+# Install tldr - an cure minal replacement for man
+yay -S tldr
+
 # Install stow
 yay -S stow
 
@@ -71,4 +77,8 @@ stow . --adopt #need to find a better way for doing this currently this requires
 yay -S google-chrome
 
 
+```
+```bash
+# Install powertop - by Intel for power management 
+yay -S powertop
 ```
