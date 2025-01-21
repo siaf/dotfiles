@@ -90,6 +90,11 @@ yay -S wofi
 
 yay -S ttf-font-awesome
 
+# Install ly - for displaymanager (login screen)
+sudo pacman -S ly
+sudo systemctl enable ly.service
+# note ly configs are in /etc/ly
+
 # Install yazi, fzf
 yay -S yazi
 yay -S fzf
