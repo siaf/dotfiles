@@ -117,7 +117,7 @@ yay -S stow
 
 # fetch dotfiles and stow them
 cd ~
-git clone https://github.com/siaf/dotfiles.git
+git clone git@github.com:siaf/dotfiles.git
 cd dotfiles
 stow . --adopt #need to find a better way for doing this currently this requires restoring the git changes after this command.
 
